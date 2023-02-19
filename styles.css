@@ -46,6 +46,7 @@ h1, h3 {
     font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
+    cursor: pointer;
 }
 
 .header-bottom {
@@ -87,4 +88,39 @@ button {
     padding-block: 0.4rem;
     padding-inline: 1.25rem;
     border: none;
+}
+
+.first-section {
+    background-color: #F9FAF8;
+    padding: 2rem 5rem 4rem 5rem;
+}
+
+.first-section h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.horizontal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rectangles {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rectangle {
+    border: 0.25rem solid #3882f6;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 2rem;
 }
