@@ -19,7 +19,7 @@ header {
 }
 
 .header-container {
-    width: 60vw;
+    width: 70vw;
 }
 
 h1, h3 {
@@ -52,6 +52,7 @@ h1, h3 {
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
+    gap: 0.5rem;
 }
 
 .header-bottom .left-side {
@@ -72,7 +73,7 @@ h1, h3 {
 }
 
 .header-bottom > img {
-    width: 30rem;
+    width: 25rem;
     height: auto;
     object-fit: cover;
     border-radius: 2rem;
