@@ -124,3 +124,31 @@ button {
     width: 10rem;
     border-radius: 2rem;
 }
+
+.second-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem 5rem;
+    height: 20rem;
+}
+
+.second-section .quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width: 60vw;
+    text-align: center;
+}
+
+.second-section .author {
+    color: #1F2937;
+    font-size: 1.125rem;
+    font-weight: 600;
+    align-self: flex-end;
+    margin-right: 7rem;
+}
