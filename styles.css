@@ -1,4 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     height: 100vh;
     font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+header {
+   background-color: #1F2937;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0.75rem;
+}
+
+header > h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 3.5rem;
+}
+
+header > ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin-right: 3.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
