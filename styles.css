@@ -8,9 +8,12 @@ body {
     font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
 
-header {
+header, footer {
     background-color: #1F2937;
     display: flex;
+}
+
+header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -68,7 +71,7 @@ h1, h3 {
     font-weight: bolder;
 }
 
-.header-bottom p {
+.header-bottom p, footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -179,4 +182,10 @@ button {
 
 .blue-rectangle > button {
     border: 0.125rem solid #F9FAF8;
+}
+
+footer {
+    padding-block: 2rem;
+    justify-content: center;
+    align-items: center;
 }
