@@ -10,29 +10,81 @@ body {
 }
 
 header {
-   background-color: #1F2937;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 0.75rem;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
 }
 
-header > h3 {
-    font-size: 24px;
+.header-container {
+    width: 60vw;
+}
+
+h1, h3 {
     color: #F9FAF8;
-    margin-left: 3.5rem;
 }
 
-header > ul {
-    font-size: 18px;
-    color: #E5E7EB;
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top h3 {
+    font-size: 24px;
+}
+
+.header-top > ul {
     display: flex;
     gap: 1.5rem;
     list-style: none;
-    margin-right: 3.5rem;
 }
 
-a {
+.header-top a {
+    font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.header-bottom {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.header-bottom h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-bottom p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-bottom > img {
+    width: 30rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 0.25rem;
+    padding-block: 0.4rem;
+    padding-inline: 1.25rem;
+    border: none;
 }
